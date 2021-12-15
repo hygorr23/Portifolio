@@ -6,6 +6,34 @@
     padding: 0;
 }
 
+.hamburguer{
+    width: 35px;
+    height: 40px;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.fas.fa-bars{
+    color: #f36404;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    animation: moveBanner 1s;
+}
+/*
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: #ffffff;
+    box-shadow: .1rem .1rem 1px rgba(0,0,0,0.8);
+}
+*/
+
 header{
     width: 100%;
     height: 100vh;
