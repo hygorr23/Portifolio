@@ -180,9 +180,37 @@ header{
     color: #f38404;
 }
 /*-----------------------------Projetos-------------------------------------*/
+.sessao-projetos{
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    width:max-content 80% ;
+}
+#p-b{
+    background-color: rgb(90, 90, 90);
+}
+#p-m{
+    background-color: rgb(50,50,50);
+}
+#p-a{
+    background-color: rgb(26, 26, 26);
+}
 .projetos{
     display: flex;
     justify-content: space-evenly;
+}
+.sessao-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.sessao-header h1{
+    font-family: "Poppins";
+    font-size: 2.8rem;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 3px #f36404;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
 }
 .card{
     width: 18rem;
